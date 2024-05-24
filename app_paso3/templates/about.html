@@ -1,0 +1,13 @@
+{% extends "layout.html" %}   <!-- declaro de donde traigo la plantilla -->
+
+{% block content %}
+<div class="card" style="width: 18rem;">
+  <img src="{{ url_for('static', filename='img/conejito.jpg') }}" class="card-img-top" alt="...">
+  
+  <div class="card-body">
+    <h5 class="card-title">Sobre nosotros</h5>
+    <p class="card-text">Puse de ejemplo una card de card para demostrar que se puede colocar cualquier elemento</p>
+    <a href="#" class="btn btn-primary">no voy a ningun lado</a>
+  </div>
+</div>
+{% endblock%}
